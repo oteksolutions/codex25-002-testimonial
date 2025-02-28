@@ -23,3 +23,7 @@ This project is a Testimonial Carousel built using HTML and CSS. It displays cus
   <li>Implement dark mode for better accessibility</li>
   <li>Make it dynamic by integrating a CMS or database</li>
 </ul>
+<br>
+<footer>
+    <p>&copy; 2025 Ken Ekweme | <a href="https://www.oteksolutions.net" target="_blank">OTek Solutions</a></p>
+</footer>
