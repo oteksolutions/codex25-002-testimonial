@@ -10,7 +10,6 @@ This project is a Testimonial Carousel built using HTML and CSS. It displays cus
   <li>Minimalist and elegant design for a professional look</li>
   <li>Fully responsive layout for different screen sizes</li>
   <li>Smooth transitions using pure CSS animations</li>
-  <li>No JavaScript required</li>
 </ul>
 <p><strong>TECHNOLOGIES USED</strong></p>
 <ul>
