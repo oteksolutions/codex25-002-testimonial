@@ -2,6 +2,7 @@
 body {
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -11,26 +12,30 @@ body {
 
 /* Carousel Styling */
 .carousel {
-  width: 300px;
+  width: 300px; /* Fixed width */
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Inner wrapper with animation */
 .carousel-inner {
   display: flex;
-  width: 300%;
-  animation: slide 9s infinite;
+  width: 300%; /* Must be 3x the width of .carousel */
+  animation: slide 9s infinite ease-in-out;
 }
 
+/* Individual testimonials */
 .testimonial {
-  width: 100%;
+  width: 300px; /* Matches the carousel width */
+  flex-shrink: 0;
   padding: 20px;
   text-align: center;
   background: #ffffff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Text Styling */
 .testimonial p {
   font-size: 16px;
   font-style: italic;
@@ -45,7 +50,19 @@ body {
 
 /* Carousel Animation */
 @keyframes slide {
-  0%, 33% { transform: translateX(0%); }
-  34%, 66% { transform: translateX(-100%); }
-  67%, 100% { transform: translateX(-200%); }
+  0%, 10% { transform: translateX(0%); }
+  33.33%, 43.33% { transform: translateX(-100%); }
+  66.66%, 76.66% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #007bff;
 }
