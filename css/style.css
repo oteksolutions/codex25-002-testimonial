@@ -10,9 +10,14 @@ body {
 	 margin: 0;
 }
 
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
 /* Carousel Styling */
 .carousel {
-  width: 300px; /* Fixed width */
+  width: 325px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -21,13 +26,13 @@ body {
 /* Inner wrapper with animation */
 .carousel-inner {
   display: flex;
-  width: 300%; /* Must be 3x the width of .carousel */
-  animation: slide 9s infinite ease-in-out;
+  width: 300%;
+  animation: slide 25s infinite ease-in-out;
 }
 
 /* Individual testimonials */
 .testimonial {
-  width: 300px; /* Matches the carousel width */
+  width: 300px;
   flex-shrink: 0;
   padding: 20px;
 	text-align: center;
