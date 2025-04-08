@@ -15,6 +15,7 @@ This project is a Testimonial Carousel built using HTML, CSS and JavaScript. It 
 <ul>
   <li>HTML – Structure for testimonials and navigation</li>
   <li>CSS – Styling, animations, and responsive design</li>
+  <li>JavaScript – Powers the dynamic behavior of the carousel</li>
 </ul>
 
 <p><strong>ADDED FEATURES</strong></p>
