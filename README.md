@@ -19,12 +19,12 @@ This project is a Testimonial Carousel built using HTML, CSS and JavaScript. It 
 
 <p><strong>ADDED FEATURES</strong></p>
 <ul>
- <li>Enhanced user experience with pause-on-hover behavior</li>
+  <li>Add JavaScript for auto-slide functionality</li>
+  <li>JS – Enhanced user experience with pause-on-hover behavior</li>
 </ul>
 
 <p><strong>FUTURE IMPROVEMENTS</strong></p>
 <ul>
-  <li>Add JavaScript for auto-slide functionality</li>
   <li>Implement dark mode for better accessibility</li>
   <li>Make it dynamic by integrating a CMS or database</li>
 </ul>
