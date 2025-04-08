@@ -1,7 +1,7 @@
 # codex25-002-testimonial
 
 <p><strong>PROJECT OVERVIEW</strong></p>
-This project is a Testimonial Carousel built using HTML and CSS. It displays customer feedback in a visually appealing, scrollable format without JavaScript. The design ensures smooth transitions and a clean, professional look.
+This project is a Testimonial Carousel built using HTML, CSS and JavaScript. It displays customer feedback in a visually appealing, scrollable format without JavaScript. The design ensures smooth transitions and a clean, professional look.
 <br><br>
 <p><strong>Learning Objective:</strong> The objective of this project is to improve my HTML and CSS skills by exploring carousel layouts, responsive design, and CSS animations. It helps me practice styling techniques while ensuring a smooth user experience and accessibility.</p>
 <br>
