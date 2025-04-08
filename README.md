@@ -27,6 +27,7 @@ This project is a Testimonial Carousel built using HTML, CSS and JavaScript. It 
 <ul>
   <li>Implement dark mode for better accessibility</li>
   <li>Make it dynamic by integrating a CMS or database</li>
+  <li>Improved interactivity without compromising performance</li>
 </ul>
 <br>
 <footer>
